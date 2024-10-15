@@ -1,0 +1,5 @@
+Document 1: Python is a popular programming language. It is widely used in data science, machine learning, and web development.
+
+Document 2: Streamlit is a Python library that helps create web apps for data science and machine learning models.
+
+Document 3: FAISS is a library for efficient similarity search and clustering of dense vectors. It's often used in search engines.
