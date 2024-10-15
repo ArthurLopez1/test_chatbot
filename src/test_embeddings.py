@@ -3,7 +3,12 @@ from pathlib import Path
 
 # small sample for testing
  
-documents = Path(__file__).parent / "data/sample_docs.txt"
+file_path = Path(__file__).parent.parent / "data/sample_docs.txt"
+
+with open(file_path, 'r', encoding='utf-8') as file:
+    documents = file.readlines()
+
+print(f"[INFO] Loaded {len(documents)} documents from the file.")
 
 docs, embeddings = generate_embeddings(documents)
 
